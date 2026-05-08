@@ -1,0 +1,5 @@
+Credentials cache: API:E8B813A8-59B0-4328-BC28-B6BFA0E1FA3E
+        Principal: cagirdem@42ISTANBUL.COM.TR
+
+  Issued                Expires               Principal
+Nov 24 15:46:18 2021  Nov 25 01:46:18 2021  krbtgt/42ISTANBUL.COM.TR@42ISTANBUL.COM.TR
