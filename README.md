@@ -4,6 +4,8 @@
 
 ## 🧭 My Graph 
 
+<img src="graph.png" width="250" height="200" />
+
 ## 📖 Core Philosophy
 
 * **Zero Tuition:** Education is completely free for everyone who passes the selection.
