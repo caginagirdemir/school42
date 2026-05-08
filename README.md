@@ -4,7 +4,7 @@
 
 ## 🧭 My Graph 
 
-<img src="graph.png" width="250" height="200" />
+<img src="graph.png" />
 
 ## 📖 Core Philosophy
 
