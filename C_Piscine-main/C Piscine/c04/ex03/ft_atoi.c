@@ -1,0 +1,50 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_atoi.c                                          :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: cagirdem <42istanbul.com.tr>               +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/12/06 12:13:35 by cagirdem          #+#    #+#             */
+/*   Updated: 2021/12/06 12:13:55 by cagirdem         ###   ########.tr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include <unistd.h>
+
+int	whitespaces(char *str, int *ptr_i)
+{
+	int	count;
+	int	i;
+
+	i = 0;
+	count = 1;
+	while ((str[i] >= 9 && str[i] <= 13) || str[i] == 32)
+		i++;
+	while (str[i] && (str[i] == 43 || str[i] == 45))
+	{
+		if (str[i] == 45)
+			count *= -1;
+		i++;
+	}
+	*ptr_i = i;
+	return (count);
+}
+
+int	ft_atoi(char *str)
+{
+	int	sign;
+	int	result;
+	int	i;
+
+	result = 0;
+	sign = whitespaces(str, &i);
+	while (str[i] && str[i] >= 48 && str[i] <= 57)
+	{
+		result *= 10;
+		result += str[i] - 48;
+		i++;
+	}
+	result *= sign;
+	return (result);
+}
