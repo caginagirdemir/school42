@@ -2,6 +2,8 @@
 
 42 is a global, tuition-free coding school that disrupts traditional education through a teacher-less, **Peer-to-Peer Learning** and **Gamified** approach.
 
+## 🧭 My Graph 
+
 ## 📖 Core Philosophy
 
 * **Zero Tuition:** Education is completely free for everyone who passes the selection.
